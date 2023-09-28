@@ -1,0 +1,5 @@
+/lexer/target
+/mdbook/book
+
+.idea
+.vscode
