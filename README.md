@@ -72,7 +72,7 @@ If this is `example.cpp`:
 
 [//]: # (I'm sorry for using CSS here :P)
 
-```css
+```scss
 using namespace std;
 
 class ExampleClass: public RandomClass {
@@ -98,7 +98,7 @@ int c = a / b;
 
 The output should be:
 
-```css
+```scss
 Token { token: "using", line: 1, position: 6, token_type: Keywords(Using) }
 Token { token: "namespace", line: 1, position: 16, token_type: Keywords(Namespace) }
 Token { token: "std", line: 1, position: 20, token_type: Unknown }
