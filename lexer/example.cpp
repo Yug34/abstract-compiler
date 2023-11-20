@@ -1,10 +1,3 @@
-!!true
-
-int a = b;
-if (a == b) {}
-if (a != b) {}
-int c = a / b;
-
 using namespace std;
 
 class ExampleClass: public RandomClass {
@@ -19,3 +12,10 @@ int main() {
     obj1.printname();
     return 0;
 }
+
+bool f = !!true;
+
+int a = b;
+if (a == b) {}
+if (a != b) {}
+int c = a / b;

@@ -257,7 +257,7 @@ pub fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>> 
 
 fn main() {
     let state: State = State::new();
-    let file_path = "example.js";
+    let file_path = "example.cpp";
     for line in process_file(file_path, state).token_stream {
         println!("{:?}", line);
     }
