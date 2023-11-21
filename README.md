@@ -47,7 +47,7 @@ Ideally, using the same program for any other language should only consist of ma
 ## - C++ Compiler:
 - Tokenizing strings and chars is complete. `cargo test` to test it.
 - Math operations and logic (=, ==, +, ++, /, *, -, --, +=, -=, /=, *=) also works perfect.
-- Parses classes and functions correctly as well.
+- Tokenizes classes and functions correctly as well.
 
 ## - JavaScript Compiler:
 - Tokenizing strings and chars is complete except for template literals.
